@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --fblue: rgba(0, 47, 108, 1);
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc(17px + 4 * ((100vw - 320px) / (1800 - 320)));
+  line-height: 1.8;
+  color: var(--fblue);
+  text-align: center;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.7rem;
+}
+
+.header .pos{
+background-color: var(--fblue);
+color: rgb(255, 255, 255);
+}
+
+.avatar {
+  align-items: center;
+
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: var(--fblue);
+}
+
+.menu ul li a {
+  color: rgb(255, 255, 255);
+  font-size: h3;
+}
+
+.avatar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  margin: 3rem 0rem;
+  padding-top: 1rem;
+  border-top: 1px solid;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer div {
+  min-width: 20%;
+}
