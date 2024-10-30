@@ -16,4 +16,9 @@ BASIC SKILLS
 
 - I can play checkers, chess and go.
 
+CURRENT STATUS
+
+- I'm looking for a job
+
+
 I'm learning _- to be continued …_
