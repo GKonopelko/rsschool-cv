@@ -84,7 +84,7 @@ li {
   display: flex;
   gap: clamp(0.5rem, 10px, 1.5rem);
   justify-content: space-evenly;
-  
+
 }
 
 .menu-item {
@@ -106,7 +106,7 @@ li {
 
 .header-box{
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -220,9 +220,9 @@ svg {
 }
 
 .project-screen {
-  display: flex; 
+  display: flex;
   align-items: center;
-  object-fit: cover; 
+  object-fit: cover;
   flex-wrap: wrap;
   height: 9rem;
   text-align: center;
@@ -317,4 +317,12 @@ svg {
 
 .footer-img svg {
   max-height: 1.5rem;
+}
+
+.footer-img>.link {
+  color:var(--background);
+}
+
+.footer-img>.link:hover {
+  color:var(--written-text);
 }
