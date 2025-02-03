@@ -15,8 +15,8 @@ html, .typed {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
-  line-height: 1.5;
+  font-size: calc( (100vw - 480px)/(1280 - 480) * (6) + 15px);
+  line-height: 1.55;
   color: var(--basic-text);
   text-align: center;
   background-color: var(--background);
