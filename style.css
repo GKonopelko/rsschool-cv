@@ -167,6 +167,7 @@ li {
 
 .profile {
  padding-left: 1rem;
+ text-align: justify;
 }
 
 @media screen and (min-width: 50rem) {
