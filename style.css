@@ -15,8 +15,8 @@ html, .typed {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: calc( (100vw - 480px)/(1280 - 480) * (6) + 15px);
-  line-height: 1.55;
+  font-size: calc( (100vw - 480px)/(1280 - 480) * (6) + 16px);
+  line-height: 1.4;
   color: var(--basic-text);
   text-align: center;
   background-color: var(--background);
@@ -67,8 +67,8 @@ li {
 }
 
 .handwritten, li {
-  font-family: "Kalam", cursive;
-  font-weight: 600;
+  /* font-family: "Kalam", cursive; */
+  font-family: Arial;
   font-style: normal;
   color: var(--written-text);
 }
@@ -112,11 +112,13 @@ li {
 
 .header-img {
   display: flex;
-  flex-basis: 20%;
+  flex-basis: 10%;
   justify-content: center;
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
   min-width: 9rem;
-  min-height: 100%;
+  /* min-height: 100%; */
+  /* max-height: 3rem; */
+  height: 8rem;
 }
 
 .header-img img {
@@ -299,7 +301,6 @@ svg {
 
 .footer {
   display: flex;
-  margin: 1rem 0rem;
   padding-top: 1rem;
   border-top: 1px dashed var(--basic-text);
   justify-content: space-around;
